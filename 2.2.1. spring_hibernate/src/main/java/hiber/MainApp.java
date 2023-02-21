@@ -21,7 +21,7 @@ public class MainApp {
 //      userService.add(new User("User3", "Lastname3", "user3@mail.ru"));
 //      userService.add(new User("User4", "Lastname4", "user4@mail.ru"));
 //      Car lexus = new Car("Lexus",5);
-      userService.add(new User("Юрий", "Трахимович", "user4@mail.ru", new Car("M",4)));
+      userService.add(new User("Юрий", "Трахимович", "user4@mail.ru", new Car("B",3)));
 //      Car buick = new Car("Buick",5);
       userService.add(new User("User4", "Lastname4", "user4@mail.ru",new Car("KSJSA",10)));
 
@@ -36,7 +36,7 @@ public class MainApp {
       }
 
       System.out.println("Поиск владельца мащины model = M {серии = 4}");
-      System.out.println(userService.getUser("M",4));
+      System.out.println(userService.getUser("B",3));
 
       context.close();
    }
